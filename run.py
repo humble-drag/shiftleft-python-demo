@@ -10,5 +10,9 @@ def add_csp_headers(response):
     response.headers['Content-Security-Policy'] = "script-src 'self' 'unsafe-inline'"
     return response
 
+
+def foo():
+    pass
+
 if __name__ == '__main__':
     app.run()
